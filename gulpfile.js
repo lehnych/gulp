@@ -69,7 +69,6 @@ function styles() {
 
 function scripts() {
     return src([
-        'node_modules/@splidejs/splide/dist/js/splide.js',
         'app/assets/js/main.js'
     ])
         .pipe(concat('main.min.js'))
