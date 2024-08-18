@@ -1,0 +1,13 @@
+@import "../../../node_modules/@splidejs/splide/dist/css/splide.min";
+@import 'layout/header';
+@import 'layout/footer';
+
+.main {
+	padding:0;
+	display: flex;
+	
+	.inner {
+		margin:0;
+		padding:0;
+	}
+}
